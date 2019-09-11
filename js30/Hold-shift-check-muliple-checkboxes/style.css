@@ -1,0 +1,12 @@
+body{
+    background-color: crimson;
+}
+
+p{
+    display: inline;
+}
+
+.inbox{
+    width: 200px;
+    margin: auto;;
+}

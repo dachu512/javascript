@@ -1,0 +1,62 @@
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Hold shift to check multiple checkboxes</title>
+      <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body">
+      <div class="inbox">
+          <div class="item">
+              <input type="checkbox">
+              <p>This is an inbox layout</p>
+          </div>
+          <div class="item">
+              <input type="checkbox">
+              <p>Check one itm</p>
+          </div>
+          <div class="item">
+              <input type="checkbox">
+              <p>Hold down your shift keys</p>
+          </div>
+
+          <div class="item">
+              <input type="checkbox">
+              <p>Check a lower item</p>
+          </div>
+          <div class="item">
+              <input type="checkbox">
+              <p>Everything in between should also be set checked</p>
+          </div>
+          <div class="item">
+              <input type="checkbox">
+              <p>Try do it with any libraries</p>
+          </div>
+          <div class="item">
+              <input type="checkbox">
+              <p>Just regular JS</p>
+          </div>
+          <div class="item">
+              <input type="checkbox">
+              <p>Good luck!</p>
+          </div>
+          <div class="item">
+              <input type="checkbox">
+              <p>Dont forget to tweet your result</p>
+          </div>
+      </div>
+
+      <script>
+            const checkboxes = document.querySelectorAll('.inbox input[type="checkbox"]');
+            function handleCheck(e) {
+                console.log(e);
+            }
+            checkboxes.forEach(checkbox => checkbox.addEventListener('click', handleCheck));
+      </script>
+  </body>
+
+  </html>
