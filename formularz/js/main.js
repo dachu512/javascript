@@ -60,3 +60,5 @@ function walidacjaFormularza(event) {
 }
 
 document.getElementById('wyslij').addEventListener('click', walidacjaFormularza);
+    
+}
