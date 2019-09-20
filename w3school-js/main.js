@@ -1,0 +1,1 @@
+// Repetition of JavaScript from w3school
