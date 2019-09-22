@@ -75,5 +75,52 @@ var dd = new Number(123) //type of object
 
 // arrays are objects
 
+// looping array:
+
+fruits = ["Banana", "Orange", "Apple", "Mango"];
+text = "<ul>";
+for ( i = 0; i < fruits.length[i] + i++){
+    text = text + "<li>" + fruits[i] + "</li>"; 
+}
+text +="<ul>";
+
+// arrays use numbered indexes
+// objects use named indexes
+
+var points = [] //creates new array
+// boolean value of 0 is false
+// boolean value of -0 is false
+// boolean value of empty string is false
+// boolean value of null and undefined and NaN is false
+
+// There are 6 types of objects:
+// object, array, date, string, number, Boolean
+
+5 + null //return 5 
+"5" + null //return "5null"
+"5" + 2 //return "52"
+"5" - 2 // return 3
+"5" * "2" //return 10
+
+
+// BOM - Browser Object Model
+
+// cookies - data stored in small text files. Are invented to remember information about the user
+
+// AJAX - Asynchronous JavaSript And XML. Let working on data without reload the page
+// XMLHttpRequest Object - to exchange data with a server
+var xhttp = new XMLHttpRequest();
+
+// GET is simpler and faster than POST and can be used in most cases
+// POST is more secure than GET , has no size limitations
+
+// JSON - JavaScript Object Notation. Is syntax for exchanging data
+
+
+
+
+
+
+
 
 
